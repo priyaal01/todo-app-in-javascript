@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  .container {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+
+  h1{
+    text-align: center;
+  }
+  .todo-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .todo-input input {
+    flex: 1;
+    padding: 10px;
+  }
+  .todo-input button {
+    padding: 10px;
+    color:rgb(255, 251, 251);
+    background-color: green;
+  }
+  ul {
+    list-style: none;
+  }
+
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 8px;
+    background-color: #f9fafb;
+    border-radius: 5px;
+  }
+  .task-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background: #4f46e5;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .task-item button:nth-child(3) {
+    background: #ef4444;
+  }
+  
+  
+  
